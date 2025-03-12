@@ -28,8 +28,30 @@ public class Main {
         int paper = 480;
         System.out.println("на каждого ученика рассчитано" + paper / (firstClass + secondClass + threeClass));
         //задание 4
-
-
+        int bottles = 16;
+        int time = 2;
+        int oneMinute = bottles / time;
+        int twentyMinutes = 20 * oneMinute;
+        System.out.println("за 20 минут машина произведет" + twentyMinutes + "штук бутылок");
+        int day = 24 * 60 * oneMinute;
+        System.out.println("за сутки машина произведет" + day + "штук бутылок");
+        int threeDays = day * 3;
+        System.out.println("за 3 дня машина произведет" + threeDays + "штук бутылок");
+        int oneMonth = 31 * day;
+        System.out.println("за месяц 31день, машина произведет" + oneMonth + "штук бутыло");
+        //задача 5
+        byte totalClasses = 120 / 6;
+        int whitePaint = totalClasses * 2;
+        int brownPaint = totalClasses * 4;
+        System.out.println("В школе,где" + totalClasses + "классов,нужно" + whitePaint + "банок белой краски и" + brownPaint + "банок коричневой");
+        // задача 6
+        short banana = 5 * 80;
+        short milk = 100 * 105 * 2;
+        short iceCream = 2 * 100;
+        short eggs = 4 * 70;
+        int grams = banana + milk + iceCream + eggs;
+        float kilograms = grams / 1000f;
+        System.out.println("вес завтрака в граммах"+grams+ "вес завтрака в килограммах"+kilograms);
 
     }
 }
