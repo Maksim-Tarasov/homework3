@@ -51,7 +51,28 @@ public class Main {
         short eggs = 4 * 70;
         int grams = banana + milk + iceCream + eggs;
         float kilograms = grams / 1000f;
-        System.out.println("вес завтрака в граммах"+grams+ "вес завтрака в килограммах"+kilograms);
+        System.out.println("вес завтрака в граммах" + grams + "вес завтрака в килограммах" + kilograms);
+        //задача 7
+        int totalWeight = 7 * 1000;
+        int a = totalWeight / 250;
+        int b = totalWeight / 500;
+        System.out.println("спортсмен похудеет за" + a + "дней, если будет худеть по 250грамм в день и за" + b + "дней,если буднт худеть по 500 грамм");
+        //задача 8
+        int masha=67760;
+        int denis=83690;
+        int kristina=76230;
+        long salaryMasha=(masha*10/100)+masha;
+        long salaryDenis=(denis*10/100)+denis;
+        long salaryKrisyina=(kristina*10/100)+kristina;
+        System.out.println("зарплата Маши после повышения"+salaryMasha);
+        System.out.println("зарплата Дениса после повышения"+salaryDenis);
+        System.out.println("зарплата Кристины после повышения"+salaryKrisyina);
+        long differenceMasha=(salaryMasha*12)-(masha*12);
+        long differenceDenis=(salaryDenis*12)-(denis*12);
+        long differenceKristina=(salaryKrisyina*12)-(kristina*12);
+        System.out.println("разница в зарплате Маши равна"+differenceMasha);
+        System.out.println("разница в зарплате Дениса равна"+differenceDenis);
+        System.out.println("разница в зарплате Кристины равнв"+differenceKristina);
 
     }
 }
